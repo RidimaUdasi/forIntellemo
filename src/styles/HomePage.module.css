@@ -1,0 +1,23 @@
+
+.cardLink:hover {
+    text-decoration: none;
+  }
+
+  .mainDiv {
+    display:flex;
+    justify-content: center;
+   
+}
+
+.mainDiv ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+}
+
+.mainDiv ul li {
+    width: 400px;
+    padding: 30px;
+    flex-basis: 25%;
+}
